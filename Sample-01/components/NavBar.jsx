@@ -52,6 +52,11 @@ const NavBar = () => {
                       External API
                     </PageLink>
                   </NavItem>
+                  <NavItem>
+                    <PageLink href="/turn-on-sv" className="nav-link" testId="navbar-turn-on-sv">
+                      Turn on SV
+                    </PageLink>
+                  </NavItem>
                 </>
               )}
             </Nav>
